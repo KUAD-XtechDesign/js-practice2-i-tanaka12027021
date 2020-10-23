@@ -5,30 +5,40 @@ $(function(){
     let num1 = 20;
     let num2 = 32;
     　　
-    $("#button01").on("click",function(){
+    function　seyhello(){
       $("#content").text("こんにちは！");
+    }
+    
+    function saySomething(txt){
+      $("#content").text(txt);
+    }
+    
+    function　samTwo(arg1,arg2){
+      $("#content").text(arg1 + arg2);
+    }
+    
+    
+    $("#button01").on("click",function(){
+      sayhello();
     })
     
     $("#button02").on("click",function(){
-      $("#content").text(txt1);
+      saySomething(txt1);
     })
-    
+
     $("#button03").on("click",function(){
-      $("#content").text(txt1 + txt2);
+      samTwo(txt1,txt2)
     })
-    
+
     $("#button04").on("click",function(){
-      $("#content").text(num1 + num2);
+      samTwo(num1,num2)
     })
-    
-    // + - * /
-    
+
     $("#button05").on("click",function(){
-      num1 = num1 + 10;
-      //$("#content").text(num1);
-    
-      $("#ball").css("margin-left",num1+'px')
+        samTwo(txt1,txt2)
+        samTwo(num1,mun2)
     })
-    
+
+
     
    })
