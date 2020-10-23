@@ -5,7 +5,7 @@ $(function(){
     let num1 = 20;
     let num2 = 32;
     　　
-    function　seyhello(){
+    function　seyHello(){
       $("#content").text("こんにちは！");
     }
     
@@ -40,5 +40,5 @@ $(function(){
     })
 
 
-    
+
    })
