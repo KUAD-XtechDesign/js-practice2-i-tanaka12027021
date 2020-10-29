@@ -1,10 +1,12 @@
 $(function(){
 
-    let txt1 = "おはようございます！";
+    let txt1 = "こんにちは！";
     let txt2 = "おげんきですか？";
     let num1 = 20;
     let num2 = 32;
     　　
+    
+    
     function　seyHello(){
       $("#content").text("こんにちは！");
     }
@@ -17,9 +19,8 @@ $(function(){
       $("#content").text(arg1 + arg2);
     }
     
-    
     $("#button01").on("click",function(){
-      sayhello();
+      sayHello();
     })
     
     $("#button02").on("click",function(){
@@ -40,5 +41,4 @@ $(function(){
     })
 
 
-
-   })
+})
